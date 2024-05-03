@@ -6,6 +6,8 @@
 <!-- Il programma stampa la somma di tutti i numeri inseriti. -->
 
 for (){
+    let userNumber = parseInt(prompt('Inserisci un numero'));
+    userNumbers.push(userNumber);
     somma = somma + userNumbers[i];
 }
 
