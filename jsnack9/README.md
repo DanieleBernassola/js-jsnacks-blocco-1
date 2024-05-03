@@ -8,7 +8,7 @@ Snack 9
 
 - for(let i = 1; i <= 10; i++){
     let number = parseInt(prompt(`Inserisci il numero ${i}`));
-    SE (!isNan(number)){
+    SE (!isNaN(number)){
         console.log('Hai inserito questo numero:', number);
         somma += number;
         media = somma / i;
